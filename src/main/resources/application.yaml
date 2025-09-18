@@ -20,9 +20,9 @@ spring:
   application:
     name: csci-602
   datasource:
-    password: {password}
-    url: jdbc:postgresql://ccba8a0vn4fb2p.cluster-czrs8kj4isg7.us-east-1.rds.amazonaws.com:5432/{database}
-    username: {username}
+    password: AVNS_WhqLg0mVeOhV-mRLC3E
+    url: jdbc:postgresql://csci-602-fall-2025-db-do-user-4683876-0.k.db.ondigitalocean.com:25060/bosteen #?sslmode=require&
+    username: bosteen
   mvc:
     servlet:
       load-on-startup: 1
