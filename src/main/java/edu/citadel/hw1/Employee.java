@@ -18,6 +18,7 @@ public abstract class Employee implements Comparable<Employee> {
         return name;
     }
 
+
     public LocalDate getHireDate() {
         return hireDate;
     }
