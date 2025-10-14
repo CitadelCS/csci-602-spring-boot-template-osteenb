@@ -1,7 +1,6 @@
 package edu.citadel.hw1;
 
 import java.time.LocalDate;
-import java.util.Objects;
 
 public abstract class Employee implements Comparable<Employee> {
     private final String name;
@@ -18,6 +17,7 @@ public abstract class Employee implements Comparable<Employee> {
     public String getName() {
         return name;
     }
+
 
     public LocalDate getHireDate() {
         return hireDate;
